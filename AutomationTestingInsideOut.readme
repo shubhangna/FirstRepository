@@ -1,0 +1,461 @@
+James Bach’s Blog
+Creator of Rapid Software Testing™
+
+ James Bach’s Blog SearchMain menu
+Skip to primary content
+Home
+Post navigation← PreviousNext →
+Sapient Processes
+Posted on June 11, 2007
+Have you ever done something manually? Have you ever tried to automate it? Did you successfully automate what you were doing?
+
+If you answered yes for any of these questions, then I’m afraid I’m being too vague– because at least three very different kinds of things are tangled together in a simple answer. In any activity done by a human, there is the human aspect (not practically mechanizable), a physical aspect involving translation or transformation of matter and energy (mechanizable in principle), and a problem-solving aspect (sometimes transformed by mechanization, sometimes not affected). Which of those get automated when we automate? Which must remain “manual”? What problems are solved and what new problems are created?
+
+My business is software testing. I have heard many people say they are in my business, too. Sometimes, when these people talk about automating tests, I think they probably aren’t in my business, after all. They couldn’t be, because what I think I’m doing is very hard to automate in any meaningful way. So I wonder… what the heck are they automating?
+
+Anyway, this confusion is why I am applying a new term to processes: sapience. Sapience is defined in the dictionary as “wisdom; sagacity.” I want to suggest a particular connotation. A sapient process is any process that relies on skilled humans.
+
+A sapient process might gain from automating some or all of the purely material aspects of it, but any human aspect that is replaced or displaced by machinery results would in an impairment of that process. This is a matter of definition, not fact. I’m defining sapient processes as that which we do not know how to automate without dumbing down the process. It will either be slightly less intelligent or amazingly less intelligent.
+
+The question a test automator should ask right away is whether testing is a sapient process. I think good testing is very sapient. That’s how I experience it and teach it. My brain is constantly turned on while testing. Show me someone who’s brain is not engaged, and I’ll show you a poor tester or a badly designed test.
+
+Is digging a hole a sapient process? It might be. Consider an archeological dig. There’s no simple algorithm or tool that will automatically excavate a valuable historical site while we go and watch TV.
+
+The purpose of this terminology is to help make it clearer what kinds of processes we are referring to. From now on, I will try not to use the term “manual testing”, except in quotes. I will practice saying sapient testing. I believe that nearly all “manual testing” is better being called sapient. I’m not carrying rocks out here, I’m penetrating the illusions surrounding a software product. Machines can’t do that.
+
+To fully automate a sapient test activity would require us to find an alternate version of that activity which solved the same problems (or more) and that had no human element in it. If you think you know where that has been done, please tell me about it.
+
+This entry was posted in Uncategorized by James Bach. Bookmark the permalink.
+24 THOUGHTS ON “SAPIENT PROCESSES”
+CDric on June 11, 2007 at 3:41 am said:
+Do you have no problem about the fact that sapient processes are slow compared to automated processes ?
+
+[James’ Reply: What I have a problem with is your premise. It makes no sense to worry about how something faster if it doesn’t solve the same problem. Otherwise, a bullet is faster than a car, so why not commute to work on a bullet?]Â 
+
+I’m a software engineer and recently I automated page checking on a massive web service. There are more than 20.000 pages and once you verified each and every one of them, you’ve got to do it again because most (but not all) of the errors you detected during the previous check got corrected.
+
+[James’ Reply: No, you haven’t automated the sapient process of page checking. You haven’t automated the human, and you haven’t automated the physical process that the human did. What you’ve done is created a program that tries to solve what you consider to be the same problem. That’s the third thing on my list.
+
+If I sat down to check those 20,000 pages, my checking would be different than your checking. During my checking, I would get ideas that your program can’t possibly conceive of. I could come to notice whole categories of problems neither you, nor your program have yet considered, and that your program cannot consider.
+
+I suspect what you meant to say is that sometimes we are happy to trade a highly sapient process for a much less sapient process, if that process solves at least some interesting part of the problem, and is a lot less expensive. I agree with you on that.]
+
+If we had used human beings to do that, it would have cost us ten times more money. And now we have the opportunity to monitor the publishing more easily, for instance, we can launch the automated tests everynight and look at the results.
+
+[James’ Reply: Your argument depends on a crucial mistake– you are talking about two different “thats”. The sapient that is not the same as your programmatic that. Furthermore, when you talk about monitoring, you are talking about another sapient process.
+
+By talking about sapient processes, I do not mean to dissuade people from using tools to transform one sapient process into another kind of sapient process. I’m just trying to get you to start seeing sapience and taking it seriously. This is a crucial issue for your own job security, by the way. If you don’t know what you offer to your company that a program could not duplicate, then you yourself are in greater danger of becoming obsolete.]
+
+Reply ↓
+Ben Simo on June 11, 2007 at 8:18 am said:
+Is digging a hole a sapient process? It might be. Consider an archeological dig.
+
+Software testing is more like an archaeological dig than digging a hole for a swimming pool. The problem is that many people don’t seem to be able to tell the difference. Instead of meticulously digging though the software in search of buried treasure (bugs), they start tearing it apart with backhoes. They don’t even think about what they might miss with the backhoe. The backhoe makes digging faster, so it must be better. Right?
+
+Wrong. Some fail to realize that testing is a sapient process. Some others think that sapience is only needed in test design before execution. It is possible to execute tests without applying wisdom during execution, but much is missed — and many won’t open their eyes to see what they are missing.
+
+Automation has its place, but replacing sapient processes is not one of them. Automation can be useful — just like a backhoe is useful — but it needs to be applied only where it fits. Too often, I hear the benefits of automation touted while the limitations are overlooked.
+
+I fear that some don’t test manually much better than their automated test execution. These are likely to be the first outsourced to automation or cheaper labor. This is not real testing. Real testing is sapient.
+
+Ben Simo
+http://QualityFrog.com
+
+[James’ Reply: Yes, this is one of my points. If you test manually in such a way that it is NOT a sapient process, then you are easily replaced by a machine and soon will be.]Â 
+
+Reply ↓
+Jeffrey Fredrick on June 11, 2007 at 12:06 pm said:
+My first thought is that this implies a preservation of sapience — you only have so much to spend, so be sure you’re spending it in the right place!
+
+In the same way it only makes sense to automate the parts where sapience is not required, it doesn’t make sense to do by hand things that don’t require sapience.
+
+So I very much like the distinction you’re introducing here.
+
+[James’ Reply: Yes, you seem to get it! The value of the distinction is that I’d like to be able to say things like:
+
+“This is such a sapient process I don’t know how to automate it.”
+
+or
+
+“What is the sapience of this process?”
+
+or
+
+“When I wrote this test tool, the sapience of my testing changed. I found myself focusing on different risks.”
+
+or
+
+“You say you automated that testing? Okay, where is the sapience now?”]
+
+Reply ↓
+Yan on June 11, 2007 at 2:59 pm said:
+When I read your article, I can’t help but wondering what does it mean to be “Human”, or what does “Human Intelligence” really mean. In some ways it reminds me a lot of the old AI debate – the difference between the capability of a Turing Machine and Human Intelligence. And in my understanding, the root of that question is about whether human intelligence has the capability to go beyond being algorithmic.
+
+[James’ Reply: I’m talking about ordinary members of the species homo sapiens sapiens who do not suffer from any condition that would ordinarily be called a mental disability. I think that’s all I need to say about humans.
+
+In testing, we simply don’t have any test design tools that even attempt to replicate or simulate the subtlety and depth of typical humans. But my definition of sapience wouldn’t be affected by it even if we did have such tools. I’m simply defining sapience as essentially that intelligence that we do not know how to automate. If you find a way to automate it, then it no longer becomes an issue of sapience. Maybe in the future there will be no such thing as a sapient process, but today I can point to many many examples.]Â 
+
+“A sapient process is any process that relies on skilled humans.”
+
+hmm, doesn’t the word “process” imply being algorithmic? if it is algorithmic, it does not rely on skilled humans, a machine can do it, theoretically speaking of course.
+
+[James’ Reply: By process I mean “a set of related things that happen.” I think by process you might be thinking instead of what I call a method. However, there are algorithmic methods and heuristic methods. I’m almost always talking about heuristic methods.
+
+If you are talking about a testing process, then I must say emphatically that testing is non-algorithmic. You tell me an algorithm for testing, and I will tell you how that’s not testing. It makes no difference whether there might be some hidden algorithm behind the behavior of human testers. The fact is we don’t know of such an algorithm, and have good reason to believe there cannot be such an algorithm, except one that would have to involve a lot of byzantine exploratory behavior that is constantly interrupting itself.]Â 
+
+for example, what about Chess? Is playing Chess a sapient process based on your definition?
+
+It would have to be no right? Since we already have machines that will never lose another game to another human (they still draw, yes.), the process does not “rely” on skilled humans.
+
+How do you compare playing Chess with say, good testing?
+
+Thanks!
+
+yan
+
+[James’ Reply: Chess is a great example. First, I would say that computers don’t play chess, and never have played chess. This is because computers don’t play. No computer has been built that replicates the things I find interesting about how I play chess.
+
+But humans have built computers that have solved the problem of winning a chess match against highly qualified humans. If you define chess as the problem of working within a certain set of rules to achieve a certain result, then chess was, at one time, a sapient process, and now it is not necessarily a sapient process– if you have a sufficiently fabulous computer or it is facing a sufficiently weak chess player.
+
+But I don’t define the chess process that way. I play chess for enjoyment. I don’t enjoy watching a computer play chess on my behalf. Therefore, computerized chess does not solve the problem I have which motivates me to play chess in the first place. This is an important point. A lot of times, the first move someone makes in opposing the notion of sapience is to try to completely ignore the human part of the process. But I won’t let you do that. I would say that no software tool I know of can help me enjoy playing chess better than I enjoy it without using a tool.
+
+Having said all that, we are left with this problem: chess has very little to do with testing. Just considering the abstract notion of chess as a set of rules, pieces, and goal conditions, what you have in chess is a very well defined problem. This problem was once considered a sort of great goal of artificial intelligence to solve, but no longer. It turns out a computer can solve the chess problem without most of the intellectual qualities we associate with even a rather dim-witted human. Testing, by contrast, is a process that engages and requires most of those human qualities. It is a poorly structured and open-ended problem to test software.]
+
+Reply ↓
+Olly on June 11, 2007 at 3:18 pm said:
+I agree here with James, “automation” is never a true replacement for human activity, or the value that can arise from it. Indeed there are many examples of where we have tried to automate human activity and failed, in the early days of AI the concept was to model the world, take a snapshot and then make a descision from it. This didn’t provide any real progress and things moved on. I suspect that the same will be true of “automation”, particulally the UI recording type of automation .
+
+It is however true that sometimes I can think of using a program to test my program, however, normally it’s something that’s highly customised to perform a specific activity and doesn’t remove me from the interaction or the testing process, merely aids in my discovery of the application. The problem with so much automation is that it’s seen as a panecea, this isn’t the case and any company that tries to sell wares on that basis are probably charlatans who know nothing about the true problems of testing the software.
+
+Reply ↓
+Cem Kaner on June 11, 2007 at 3:35 pm said:
+I already see in the comments a commonplace but false dichotomy, between “automated” testing and “manual.”
+
+The point that I think you are making is that, even though software testing is often computer-assisted, it is not “testing” (an investigation designed to expose quality-related information of significance to a stakeholder) without human intelligence driving it and interpreting the results.
+
+We can certainly use computers to help us design, implement, execute and evaluate the results of many tests. But to decide which tests to design and to evaluate the significance of the results, I think we have no professionally-defensible alternative to sapience. In addition, in many cases, a human has to work in detail with the product in order to develop sufficient insight into the product and its risks to profitably use the computer to semi-automatically design and implement a long series of tests.
+
+— Cem Kaner
+
+[James’ Reply: Thanks, Cem.]Â 
+
+Reply ↓
+Scott Barber on June 11, 2007 at 4:23 pm said:
+Personally, I have given up using “automated testing” except in quotes. For the most part, I don’t consider anything a computer does without human experience, wisdom and non-linear thinking to be testing (unless there is some super-sophisticated artificial intelligence out there that I am unaware of).
+
+From my experience, I can say that computers, on their own, *can* be “taught” to do some valuable and relevant “automated checking”, but that isn’t testing. At least not to me.
+
+[James’ Reply: It can be part of testing, though. It’s just not the whole equation.]Â 
+
+This is not to say that I’m opposed to using automation to help me test better/faster/more/cheaper. Quite the contrary, I am a huge fan of automation. I refer to this as computer-assisted testing (as Cem does).
+
+The point is that I *try* to use computers to increase my ability to focus on what I will now be calling sapient testing, not to replace sapience or minimize the degree of sapience necessary to do good testing.
+
+It’s good to have something better than “brain-engaged testing”, which is what I’ve been calling it up to now. Thanks Jim, thoughtful, brilliant and spot-on as always!
+
+— Scott
+
+—
+
+President & Chief Technologist, PerfTestPlus, Inc.
+Executive Director, Association for Software Testing
+http://www.perftestplus.com
+http://www.associationforsoftwaretesting.org
+
+“If you can see it in your mind…
+you will find it in your life.”
+
+Reply ↓
+David Gilbert on June 11, 2007 at 4:39 pm said:
+James — I like the idea, but I am also a bit troubled by the implied distinction. You say…
+
+From now on, I will try not to use the term â€œmanual testingâ€?, except in quotes. I will practice saying sapient testing. I believe that nearly all â€œmanual testingâ€? is better being called sapient.
+
+This implies that manual=sapient, and automated=NonSapient. While I will agree that you cannot automate the sapience out of a good testing process, I hesitate to tie that idea so tightly to manual or automated. In my experience, and I suspect yours as well, I have seen some fairly non-sapient manual testing!! I also consider the load testing I do to be a sapient process, but it is almost completely automated…the sapient aspect is the post test analysis of gathered data. Not to mention, this is now a heck of a marketing challenge for me…”Announcing TestExplorer, world’s first Sapient Testing Tool!!”  😉
+
+[James’ Reply: Good manual testing is sapient. I talk about good testing, for the most part. Bad manual testingÂ  may or may not be sapient. Since sapience can’t be automated, then if an automated process is sapient, it can’t be fully automated. Does that clear it up?]
+
+I hear what you’re saying and I like the idea, but I personally would feel more comfortable using it as an additional modifier, for instance “I think you would get more value from your tests if you designed in more sapience.” I can think of perfectly valid contexts for that statement to be applied to both automated and manual tests.
+
+Sincerely,
+David Gilbert
+
+[James’ Reply: I might actually use a sentence like that. I don’t understand the problem that you’re worried about.]
+
+Reply ↓
+Michael M. Butler on June 11, 2007 at 9:53 pm said:
+I think “sapience” will do as a marker for what you are talking about. The word is slightly awkward, which is fine for now. I anticipate that either the term will never become popular, or, if it does, it will be abused in one of several predictable ways, including something like the [A/a]gile morass.
+
+“Intelligence” has already been irrevocably debased. Long live sapience!
+
+Poul Anderson coined the term “sophont”, and used it as common parlance in some of his science fiction. His writing never defined it, but I take it to mean “organism capable of exerting and exhibiting wisdom”.
+
+Wisdom–now *there’s* a loaded word. Would that we lived in a world where testers, programmers and managers could speak sincerely about it.
+
+Not being context-driven seems most unwise to me. Thanks to you, Cem and your context-driven cohort (of which I am a proud, humble and desultory member). Attention is the limiting factor in most human endeavors. Looking for problems in any complex system is always tough. People want “sure things”, and they’ll usually settle for reassurance as a substitute.
+
+Sorry if this post is too full of glittering generalities to be worth posting.
+
+[James’ Reply: All words are awkward. I like “sophont”Â  though.]
+
+Reply ↓
+Zach Fisher on June 12, 2007 at 4:15 am said:
+When I think about automation after reading this, I have a desire to redefine my concept.
+
+If I hand a “test” over to a machine to perform an activity on my behalf, perhaps I am not testing; I am only delegating. Much the same way a manager delegates tasks to his/her sub-ordinates. The effect is somewhat the same: a distribution of energy in an attempt to accomplish as much/more in no more time it would take to do it myself. And the task is deemed completed when some authority puts the stamp on it. An oversimplification for sure, and I’m assuming that the workers can think for themselves (hopefully).
+
+Is it silly to suggest that at the point that one re-enters the testing theater to observe the results of all that delegation – THAT is itself the test and not a moment before? It is purposeful and observable, two distinctly human traits. They require the human element. They insist upon “sapience”.
+
+Otherwise, the computer is doing what Yan suggested: It is just running another algorithm, program or service. Without the human there to observe, suggest, imply, define, prioritize, guess, or bang; the computer is like the tree that fell down in the woods. Perhaps automation is nothing more than condensing the time when we can re-enter so that “actual” testing can begin?
+
+[James’ Reply: I have no problem calling the thing that the tool does “testing”. It’s just that the tool can’t fulfill the entire mission of good testing. It can’t do the whole job of good testing, and it can’t do certain critical parts of the job. I think of my tools, from my pencil on up, as being in a partnership with me. A sapient process relies on a person, at some point, by definition. I think there can be completely non-sapient testing, it just would be really bad.]
+
+Reply ↓
+Ben Simo on June 12, 2007 at 11:25 am said:
+I think there can be completely non-sapient testing, it just would be really bad.
+
+Could we call that foolish testing? Or absurd testing? Or vacuous testing? Or maybe asinine testing?
+
+Oh, the fun I can have with a Thesaurus. I am now thinking this may be vacuous comment.
+
+I think I like asinine testing. :)
+
+Reply ↓
+Mark Leighton Fisher on June 12, 2007 at 12:02 pm said:
+This post hits the nail on the head to me — it seems like you have been building up to this for a while now. Automated testing feels to me like an old SAT test question, “Automated testing:testing :: compilation:assembling”. Automated testing lets me instruct the computer in the low-level details of the testing so I can concentrate on the higher-level details, only some of which will ever be amenable to automated testing (apart from the provision of usable AIs). (Just because we have compilers doesn’t mean they write anything but the lowest-level details of the program for us.)
+
+I liked the comments on testing APIs, as automated testing of an API can only proceed once you have a usable, tested API design — which cannot be done without plenty of sapient testing. Automated testing can help once you reach that point, as the automated testing can uncover implementation defects you introduce when you have to change the design of the API.
+
+Conversely, you can automate the (non-sapient) testing of a GUI, which would be handy once you have finished the sapient testing of the GUI. Usability is only sapient-testable, but whether you lose any functionality from a change may (I repeat may) be automatically testable.
+
+To sum up your position as I understand it (my paraphrase) “All good testing is sapient. However, you can use tools so that you concentrate on the high-level part of testing, while the tools handle the low-level, fiddly little details.”
+
+[James’ Reply: Your paraphrase is close to what I’m trying to say, but I think the division is more interesting than high level vs. details. Sapient handling of details helps us generate new ideas. My brother once clerked at a bookstore, and he had to field a lot of questions about where to find particular books. Because he was in the midst of that question stream, he learned that many people come into book stores looking for books that Oprah Winfrey mentioned on her talk show. From this he conceived an idea to establish a special table just for Oprah books. This was before bookstores generally did that sort of thing. I think if the customer questions were taken by an automated system, it would have been far less likely for anyone to have conceived of the Oprah table idea.
+
+Working with details may be important. All I’m saying is that some things we can automate without necessarily transforming them, while other things are transformed by automation, and still others simply aren’t automatable at all. We need to take these distinctions seriously, instead of laughing them off the way most managers and programmers seem to do.]
+
+Reply ↓
+Matthew Heusser on June 17, 2007 at 12:58 pm said:
+Hello James. I like where you are going with this. I _DO_ think there are some common, everyday functions that can be automated and tested with automated Oracles – things like the convert fahrenheit to Celcius Function, or simply build vertification tests. “Does the install work?” / “When you fill up a file and click save, exit, go back in, and click load, does what you typed in re-appear on the screen?”
+
+“If I take the first 10 characters of each line and use that as the primary key in the foo table, does the rest of the data correspnd to (blah from the database)?”
+
+Of course, this won’t catch that wierd flicker on the screen when the answer is correct but the “help” link mysteriously disappears. Still, I want to automate those simple, brainless things, so I can spend my time on more important things.
+
+[James’ Reply: Well, not only does it not capture flickers, but the tests you just sketched out cover very little of the test space, in any sense. They may be useful, but on the other hand, they take some time to write and maintain, so you may not be saving the time you think you are saving. Test automation is another mouth to feed. To me it is not clear as a general rule that automating even tests that are non-sapient provides sufficient value. But sometimes I feel that it definitely does. I am not anti-automation. I am anti-bullshit. I use tools and partially automated testing, but I don’t pretend I am replacing my sapience with a tool. What I’m doing instead is reducing the sapience of the process without replacing it with something of equivalent value, while calculating (and gambling) that the sapience I drop isn’t critical to my test strategy as a whole.]Â 
+
+But I think automating everything is crazy, especially at the customer-facing level. (I can see automating a _LOT_ of developer-facing tests, but that’s a different thing.)
+
+Anyway, here’s something really interesting:
+
+Remember how FIT was supposed to automate all acceptance tests and we wouldn’t need software testers?
+
+The customer would “just” describe the tests in FIT?
+
+Well, it turns out that people in the test automation world are starting to realize that FIT isn’t really very good at making sure that the software, welll … works. Instead, FIT now has other benefits:
+
+“So the more important purposes of the business-facing tests are (a) to help explain more clearly to the programmer what the product director wants, (b) to give the programmers a tool to structure their work and know when itâ€™s done, (c) to help the product director think through what she wants, and (d) to help people coming upon the project later to understand something about what itâ€™s supposed to do.”
+
+—> This is From Brian Marick’s Examplar blog (http://www.exampler.com/blog/2007/06/01/two-conference-ideas/), and it’s good stuff, but that’s not what I want to focus on. Instead, I’d like to focus on this:
+
+“Iâ€™m not convinced that automated business-facing (acceptance) tests are, in the presence of good programmer testing, all that incredibly useful as testsâ€”as, that is, regression tests, tests that will find bugs created when a programmer changes something here that causes a failure over there.”
+
+—> Again, that is from Marick.
+
+I know of multiple training vendors who suggest 100% test automation using FIT – that using FIT or FITness is the way to do it.
+
+What’s the expression I’m looking for? … Perhaps “It looks like that ship has sailed”?
+
+Reply ↓
+Shrini on June 18, 2007 at 8:31 am said:
+>>>[Yan] hmm, doesnâ€™t the word â€œprocessâ€? imply being algorithmic? If it is algorithmic, it does not rely on skilled humans, a machine can do it, theoretically speaking of course.
+
+This would imply that *all* processes seemed to be algorithmic, would not require a human (skilled) being.
+
+James – refer to our discussion on process during STAR EAST – you mentioned that “cooling of the coffee” is a process and you distinguished from “method” – dropping ice cubes. Process is what actually happens in an open systems environment with physical laws in force and human interactions influencing it in big way. Process is description of something that happened …
+
+I am not sure if one can say all processes are algorithmic by nature. Testing surely not the one.
+
+Most of the people when they say â€œprocessâ€? – they confuse that to a written documentation (describing â€œwhat is *supposedâ€? to happenâ€?). I believe the process describes what actually happens.
+
+>>> [Yan] …playing Chess a sapient process based on your definition? It would have to be no right? Since we already have machines that will never lose another game to another human (they still draw, yes.), the process does not â€œrelyâ€? on skilled humans.
+
+Yan, seem to indicate here is that since there are computers (algorithmically superb) that can defeat a skilled human chess player â€“ Act of playing chess is a non sapient Process. There are instances where a human being defeated the computer in chess game. I disgree with his notion that playing chess is a non sapient Process
+http://en.wikipedia.org/wiki/Garry_Kasparov#Chess_against_computers.
+
+>>>>[James] … If you define chess as the problem of working within a certain set of rules to achieve a certain result, then chess was, at one time, a sapient process, and now it is not necessarily a sapient process
+
+So a process becoming sapient is a situational thing, context based â€“ right? A process can change from â€œsapientâ€? to â€œnon sapientâ€? based on the context? Do you see a possibility of software Testing becoming â€œnon sapientâ€? in near future?
+
+Shrini
+
+[James’ Reply: A sapient process loses its sapience when it loses its reliance on a skilled human (though I should point out that skilled human is redundant to a certain extent– all normal humans have skills that no machine has). When a process no longer relies on sapience, it is a different process. It is literally a stupider process, but maybe that’s okay. Humans can be expensive, after all.]
+
+Reply ↓
+verand on June 29, 2007 at 10:22 am said:
+–>James
+I do agree with you that “SAPIENT” yields efficiency compared to “AUTOMATION”. But may i know why the term “AUTOMATED” got its importance particularly in testing. IS there any tester who does not use the term “AUTOMATE” in his testing career [considering experience].
+
+[James’ Reply: Computer software IS automation. When we test it we are testing automation. Therefore it’s hardly surprising that software testers would be familiar with and comfortable with the idea of using automation. Many testers in our industry, however, do not use automation to execute tests unattended.]
+
+Reply ↓
+verand on July 6, 2007 at 5:36 am said:
+–>James
+
+AUTOMATION got its birth from SAPIENT Process,right ? If i am a no clear-eyed person, how can i automate a test process or any other else.
+
+[James’ reply: Yes, automation is born from a sapient process. How you can automate a process depends on the process, the technology you use, and what you mean by the term “automate”.]
+
+Lets take a look into Load Testing.(i)The way i develop a script is a SAPIENT, (ii)i will make use of my mind/wisdom to automate the script( again SAPIENT) in generating the load,(iii)my script will communicate with the other scripts deployed in different systems,(iv)generate results (v) will analyze the results.
+
+[James’ Reply: It’s not clear to me what you mean by “automate the script.” Are you talking about replacing a process that is done by humans with one that is done solely by a machine? If so, there are going to be differences between what humans do and what your automation does. Those differences may be important.]
+
+I used the term AUTOMATE to describe all the above said SAPIENT tasks,like a combo.In my context, AUTOMATE is a child term to SAPIENT.
+
+Sorry if i drive you to a wrong direction.
+
+[James’ Reply: I hope what you’re trying to say is that you guide the non-sapient aspects of your testing with your personal sapience. That’s what I do, to. Sapient testing may involve quite a lot of tool use.]
+
+Reply ↓
+verand on July 9, 2007 at 6:21 am said:
+Thanks for your response James..What I mean is what You said…
+Finally what i would like to know from you is “Can a well built-script/tool have the ability to replace the Sapient process in any case..?” If the answer is NO,when & why shall we go for AUTOMATION..?
+
+[James’ Reply: By definition a non-sapient process cannot duplicate a sapient process. The reason to automate is not that we think we can duplicate sapience, but because we believe we gain something useful by using a tool, and we believe that sufficiently compensates us for what we lose.]Â 
+
+Reply ↓
+Jerrad Anderson on July 26, 2007 at 6:51 pm said:
+I am glad you defined this notion as I believe it will help to dispell many arguments and debates. When I thought of manual testing I always thought of the things that humans do by hand that *can* be automated. I then put all testing that could not be automated into the exploratory testing category. This doesn’t fit for everything but I think it made things easiest for me.
+
+Perhaps now I’ll have another tool to convince managers that automation is only a part of the solution.
+
+Jerrad anderson
+
+Reply ↓
+Unni on February 27, 2008 at 5:33 pm said:
+Test Automation or Automated Test often is mistakenly seen as a method to reduce manual test resources. It is now a must to have skill to quality as a s/w tester. My suggestion to see all advocates of pure Automated tests is to see it “Tests automated to enable repetetion”. An atuometed test cannot exist unless it is been thought, executed and evaluated atleast once before it came into existance.
+
+– my 2 cents.
+
+[James’ Reply: Actually, if you automate a test that really was executed sapiently, first, then whatever the test is after it’s automated is unlikely to be the same as before. This is true for a couple of reasons. One is that NOTHING is exactly the same twice. The more interesting reason, though, is that a sapient action is never the same as a non-sapient one, even when they look the same. If I asked you to check the contents of a window on the screen, and you noticed that the window was minimized, you would instantly consider un-minimizing the window to check it. A program, however, must be explicitly told to look for that problem. “Check the contents of the window” to a skilled human, means something far more than the same thing issued as a command to a program.]
+
+Reply ↓
+Gaurav Pandey on November 24, 2008 at 4:10 pm said:
+Very interesting post.
+While reading this post, I was intrigued to understand the dictionary meaning of Sapient and Automation.
+
+While I was reading the meaning of automation, I got multiple definitions.
+One of the defintions was “self-regulated so as to meet predetermined requirements ”
+
+[James’ Reply: I don’t recognize that definition. It makes no sense to me. It would seem to say that humans are automation. That’s crazy talk!]
+If I consider this definition to be correct, then how different is automation from manual testing?
+I am not a veteran to automation testing. In fact, we use QTP to automate our functional testing.
+As a process, we create test cases for our manual testing. Once the test case has a PASS status, we record/validate/check our automation script.
+
+If what I am doing is actually “automation” however different is automation (from my context) to the explaination you have provided?
+What actually is automation?
+
+[James’ Reply: I think of test automation, in general, as “tool-supported software testing.” However, the general idea of automation is that work which is done by a machine instead of a person.]
+
+Reply ↓
+Rakesh on April 7, 2011 at 1:51 pm said:
+Hi James,
+
+Excellent post !
+
+I had similar problem trying to educate my manager who believed that Test Automation when achieved to 100% coverage can replace Manual Testing/Sapient Processes.
+
+My strong belief is Test Automation should always be used as a mechanism to support Manual Testing efforts allowing Testers to spend their valuable time performing exploratory tests
+
+Thanks
+Rakesh
+
+Reply ↓
+Andrei on May 22, 2014 at 8:40 am said:
+Indeed automation is a very delicate subject and I think that it can be traced to using the improper words.
+Note that I am using “automation” not “test automation” or “automated testing”.
+
+[James’ Reply: Noted.]
+
+One should grant only the young ones the luxury of enthusiasm and misuse of words.
+
+I started as a manual tester and moved to “automation” fairly quick.
+
+[James’ Reply: I don’t know what “manual tester” means. That is to say, I probably know what you mean, but what you mean is probably not that your testing made no use of tools. Surely you used auto-repeat on your keyboard. You must have taken a screenshot once in a while. You used a bug reporting tool.
+
+What you probably meant by “manual tester” is that you did not use one particular kind of automation– automated user simulation via manually writing code.
+
+Since we all use tools in the course of our testing, and since programmers don’t say they are “manual programmers,” I think we should not call ourselves manual testers.]
+
+Now after almost a decade of telecom and cloud I think that for certain niches the automation side can grow extensively and it is the only way to go.
+
+[James’ Reply: In other words, we all use tools to help us test. But what tools do is not testing.]
+
+When working in an machine to machine environment, with APIs and standardized interfaces, one can and should automate. Superior thought processes come really handy in adding the proper checks and not trusting the tools to much. I have seen tons of false positives and false negatives, it comes with the territory, as do incompetent manual testers.
+
+[James’ Reply: incompetent testers. There is no point in saying “manual” there.]
+
+The art remains, and like everything in life it transforms in how to create meaningful test data, how to provision 2 million users, what comparators to add, where to add them and why.
+
+I think that the real problem is in the intended use of the automation. This hold true especially for non-technical people. There is a huge gap between a sapient test automator – what they imagine – and automation. Automation is just a tool with advantages and disadvantages.
+
+[James’ Reply: You wrote “automata” instead of automator, above. I assume you meant the latter so I changed it. I don’t use the phrase “test automator,” however, so I would have simply said tester, there.]
+
+We are the architects and we employ an automated brick layer. It will never be able to create art, no matter how may barns it can erect per hour.
+
+Or to go along with James’ smoke jumper analogy, we don’t drop fully autonomous shovels nor just a man with a shovel. We drop a man with a custom state-of-the art fire fighting machine, complete with backup shovel and axe. As always there are corner cases where the only viable tool is the shovel, however the heavy lifting is done by machines under the watchful eye of the firefighter.
+
+[James’ Reply: Agreed.]
+
+Reply ↓
+Srinivas Kadiyala on May 24, 2014 at 11:26 pm said:
+As we change to prefer to call “manual testing” as “Sapient Testing”..
+
+Can we change our role name as “Sapient Tester” … But as many companies,people – follow to use “Manual Tester” – How to make them realize/change the thoughts?
+
+[James’ Reply: I no longer use the term sapient, because it creates confusion when speaking about a non-sapient process (sounds like it’s supposed to mean “stupid” but in fact it means “automatable”).
+
+All testing is sapient, by definition, but if you called yourself a sapient tester that wouldn’t be a bad thing.]
+
+Reply ↓
+Andrei on May 28, 2014 at 4:33 am said:
+Hi James,
+
+I agree with your manual side the use of tools does not warrant a new class.
+As strange as it might sound, there are somewhat proficient testers that do not use any automation tools in their test execution activity. This is what I was referring to.
+Either the product does not lend itself to automation or the people have not matured enough to seek the advantages of automated tools or try to implement them. I fear that this is an attitude problem and that no amount of training is going to fix.
+
+“a sapient test automata” is incorrect, mea culpa! I should have said:
+There is a huge gap between sapient test automata – what they imagine – and test automation.
+or
+There is a huge gap between a sapient test automaton – what they imagine – and test automation.
+
+I am intentionally using the Latin “automation/automata” and Greek “automaton”. People have come to understand something slightly different by the English “automation”. The archaism sends people to the dictionary and they start separating the “intelligence behind” from the “movement up-front”
+
+Industrial automation/control covers a wide range of apparent intelligence, from the simple negative feedback loop to apparently having a mind of it’s own. This appearance has lead people to attribute sapience to automation, whereas until now we humans have automated everything but the sapience.
+There is a huge gap from what some understand by automated test script or automated testing, and what it really is. It is just a mechanism that acts in a repetitive manner and without active intelligence.
+
+A glorified finite state machine cannot compare to the infinite state machine that seems to be the human mind.
+
+Lost in translation,
+Andrei
+
+PS: I promise not to post comments from my phone, the keyboard is tiny and spelling suferrs.
+
+[James’ Reply: You’re an interesting fellow. I hope you post more comments on my blog.]
+
+Reply ↓
+Leave a Reply
+Your email address will not be published. Required fields are marked *
+
+Name * 
+
+Email * 
+
+Website 
+
+Comment 
+
+
+ 
+Proudly powered by WordPress
